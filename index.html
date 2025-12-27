@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OMR Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Online OMR Correction</h1>
+
+    <!-- Exam name -->
+    <input type="text" id="examName" placeholder="Exam name" />
+
+    <!-- PDF upload -->
+    <input type="file" id="pdfFile" accept="application/pdf" />
+
+    <!-- Run button -->
+    <button onclick="runOMR()">Run Correction</button>
+
+    <!-- Status -->
+    <p id="status"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
