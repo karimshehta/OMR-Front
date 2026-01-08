@@ -1,3 +1,7 @@
+fetch("http://localhost:8000/run", {
+  method: "POST",
+  body: formData
+})
 async function runOMR() {
   const examName = document.getElementById("examName").value;
   const fileInput = document.getElementById("pdfFile");
